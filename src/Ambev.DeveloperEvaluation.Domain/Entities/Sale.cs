@@ -1,6 +1,7 @@
+using Ambev.DeveloperEvaluation.Domain.Common;
 using Microsoft.AspNetCore.Http.HttpResults;
 
-namespace Ambev.DeveloperEvaluation.Domain.Common;
+namespace Ambev.DeveloperEvaluation.Domain.Entities;
 
 public class Sale : BaseEntity
 {

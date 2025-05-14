@@ -1,8 +1,9 @@
 using Ambev.DeveloperEvaluation.Application.DTOs;
+using MediatR;
 
 namespace Ambev.DeveloperEvaluation.Application.Commands.Sale;
 
-public class CreateSaleCommand
+public class CreateSaleCommand : IRequest<Guid>
 {
     public string SaleNumber { get; init; } = string.Empty;
     public DateTime Date { get; init; }
