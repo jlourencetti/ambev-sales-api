@@ -4,7 +4,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Controllers;
 
+[ApiController]
+[Route("api/[controller]")]
 public class SalesController : ControllerBase
+
 {
     private readonly IMediator _mediator;
 
