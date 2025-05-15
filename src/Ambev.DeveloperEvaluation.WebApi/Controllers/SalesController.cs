@@ -35,5 +35,12 @@ public class SalesController : ControllerBase
         var result = await _mediator.Send(new GetSaleByIdQuery(id));
         return result is null ? NotFound() : Ok(result);
     }
+    
+    [HttpGet]
+    public async Task<IActionResult> GetAll()
+    {
+        var result = await _mediator.Send(new GetAllSalesQuery());
+        return Ok(result);
+    }
 
 }

@@ -3,4 +3,4 @@ using MediatR;
 
 namespace Ambev.DeveloperEvaluation.Application.Queries.Sale;
 
-public record GetSaleByIdQuery(Guid Id) : IRequest<SaleViewModel>;
+public record GetAllSalesQuery() : IRequest<List<SaleViewModel>>;
