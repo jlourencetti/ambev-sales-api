@@ -1,4 +1,5 @@
 using Ambev.DeveloperEvaluation.Application.Commands.Sale;
+using Ambev.DeveloperEvaluation.Application.Queries.Sale;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,4 +28,12 @@ public class SalesController : ControllerBase
         var id = await _mediator.Send(command);
         return CreatedAtAction(nameof(Create), new { id }, id);
     }
+    
+    [HttpGet("{id:guid}")]
+    public async Task<IActionResult> GetById(Guid id)
+    {
+        var result = await _mediator.Send(new GetSaleByIdQuery(id));
+        return result is null ? NotFound() : Ok(result);
+    }
+
 }
