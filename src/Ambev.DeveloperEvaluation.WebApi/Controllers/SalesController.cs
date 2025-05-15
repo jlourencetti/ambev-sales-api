@@ -49,6 +49,13 @@ public class SalesController : ControllerBase
         var result = await _mediator.Send(new CancelSaleCommand(id));
         return result ? Ok() : NotFound();
     }
+    
+    [HttpPost("{saleId}/cancel-item/{itemId}")]
+    public async Task<IActionResult> CancelItem(Guid saleId, Guid itemId)
+    {
+        var result = await _mediator.Send(new CancelSaleItemCommand(saleId, itemId));
+        return result ? Ok() : NotFound();
+    }
 
 
 }
