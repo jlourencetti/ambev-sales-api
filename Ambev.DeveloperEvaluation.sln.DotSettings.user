@@ -1,0 +1,4 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4dac771f_002Dd6a2_002D4304_002D90a5_002D39f0f57bf237/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Deve_Criar_Venda_Com_Itens_Validos" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Project Location="/Users/julianolourencettipinheiro/Downloads/abi-gth-omnia-developer (2)/template/backend" Presentation="&amp;lt;Tests&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

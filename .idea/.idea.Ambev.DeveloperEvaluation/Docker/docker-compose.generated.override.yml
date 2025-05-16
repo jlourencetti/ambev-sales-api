@@ -1,0 +1,37 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  ambev.developerevaluation.webapi:
+    build:
+      context: "/Users/julianolourencettipinheiro/Downloads/abi-gth-omnia-developer\
+        \ (2)/template/backend"
+      dockerfile: "src/Ambev.DeveloperEvaluation.WebApi/Dockerfile"
+      args:
+        BUILD_CONFIGURATION: "Debug"
+    command: []
+    entrypoint:
+    - "/opt/JetBrains/RiderDebuggerTools/linux-x64/JetBrains.Debugger.Worker"
+    - "--runtimeconfig"
+    - "/opt/JetBrains/RiderDebuggerTools/JetBrains.Debugger.Worker.runtimeconfig.json"
+    - "--mode=server"
+    - "--frontend-port=57000"
+    - "--backend-port=57200"
+    - "--roslyn-worker-port=57400"
+    - "--timeout=60"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+      RIDER_DEBUGGER_LOG_DIR: "/var/opt/JetBrains/RiderDebuggerTools"
+      RESHARPER_LOG_CONF: "/etc/opt/JetBrains/RiderDebuggerTools/backend-log.xml"
+    image: "ambevdeveloperevaluationwebapi:dev"
+    ports:
+    - "127.0.0.1:57000:57000"
+    - "127.0.0.1:57200:57200"
+    - "127.0.0.1:57400:57400"
+    volumes:
+    - "/Users/julianolourencettipinheiro/Downloads/abi-gth-omnia-developer (2)/template/backend/src/Ambev.DeveloperEvaluation.WebApi:/app:rw"
+    - "/Users/julianolourencettipinheiro/Downloads/abi-gth-omnia-developer (2)/template/backend:/src:rw"
+    - "/Users/julianolourencettipinheiro/.nuget/packages:/home/app/.nuget/packages"
+    - "/Users/julianolourencettipinheiro/.local/share/JetBrains/RiderRemoteDebugger/2024.3.7/Linux64:/opt/JetBrains/RiderDebuggerTools"
+    - "/Users/julianolourencettipinheiro/Applications/Rider.app/Contents/bin/backend-log.xml:/etc/opt/JetBrains/RiderDebuggerTools/backend-log.xml"
+    - "/Users/julianolourencettipinheiro/Library/Logs/JetBrains/Rider2024.3/DebuggerWorker/JetBrains.Debugger.Worker.2025_5_14_01_57_48:/var/opt/JetBrains/RiderDebuggerTools:rw"
+    working_dir: "/app"

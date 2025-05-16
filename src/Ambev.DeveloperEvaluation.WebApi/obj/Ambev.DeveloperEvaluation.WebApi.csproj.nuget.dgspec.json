@@ -28,6 +28,9 @@
             "projectReferences": {
               "/Users/julianolourencettipinheiro/Downloads/abi-gth-omnia-developer (2)/template/backend/src/Ambev.DeveloperEvaluation.Domain/Ambev.DeveloperEvaluation.Domain.csproj": {
                 "projectPath": "/Users/julianolourencettipinheiro/Downloads/abi-gth-omnia-developer (2)/template/backend/src/Ambev.DeveloperEvaluation.Domain/Ambev.DeveloperEvaluation.Domain.csproj"
+              },
+              "/Users/julianolourencettipinheiro/Downloads/abi-gth-omnia-developer (2)/template/backend/src/Ambev.DeveloperEvaluation.ORM/Ambev.DeveloperEvaluation.ORM.csproj": {
+                "projectPath": "/Users/julianolourencettipinheiro/Downloads/abi-gth-omnia-developer (2)/template/backend/src/Ambev.DeveloperEvaluation.ORM/Ambev.DeveloperEvaluation.ORM.csproj"
               }
             }
           }
@@ -76,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/julianolourencettipinheiro/.dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.409/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -191,7 +194,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/julianolourencettipinheiro/.dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.409/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -259,7 +262,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/julianolourencettipinheiro/.dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.409/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -339,7 +342,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/julianolourencettipinheiro/.dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.409/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -421,7 +424,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/julianolourencettipinheiro/.dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.409/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -506,7 +509,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/julianolourencettipinheiro/.dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.409/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
